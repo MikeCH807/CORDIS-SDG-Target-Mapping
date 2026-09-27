@@ -39,3 +39,9 @@ Source: CORDIS project data; taxonomy: retained EU Vocabularies SDG export. The 
 See [Submission description](docs/SUBMISSION_DESCRIPTION.md). This release candidate now has a public Streamlit prototype at the URL below, as reported by the project owner. Public availability does not establish independently validated final-model accuracy. [License status](LICENSE_STATUS.md) requires the owner's decision and third-party attribution review before publication.
 
 PUBLIC APP URL: https://cordis-sdg-target-mapping-jpqfdgzmtxorrcsshrq6pq.streamlit.app/
+
+## Project Development Journey
+
+A detailed account of the development process, technical challenges, validation decisions, limitations, and personal reflections from building this project is available here:
+
+[Project Development Process and Personal Reflection](docs/PROJECT_DEVELOPMENT_AND_REFLECTION.md)
