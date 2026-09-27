@@ -6,4 +6,4 @@ Evaluators can inspect target wording, project identifiers, source-field evidenc
 
 Production evaluates Targets only, not Indicators/Series. The reused GPT-5.4 Mini development benchmark failed the complete internal quality gate and does not measure final Luna accuracy. The scope prompt says Horizon Europe although 42 projects are OTHER; those 420 evaluations and 28 supported mappings retain this limitation. The demonstration sample cannot estimate CORDIS-wide prevalence. Source download date and some original production scripts are unrecovered; the release reproduces analysis and deterministic composition from frozen outputs.
 
-The web prototype is not publicly deployed yet. Licensing/attribution review and the public URL are required before submission. See METHODOLOGY, VALIDATION and LIMITATIONS for exact boundaries.
+The project owner reports that the public web prototype is live at https://cordis-sdg-target-mapping-jpqfdgzmtxorrcsshrq6pq.streamlit.app/. Licensing/attribution review and independent public-page/download checks remain required before submission. See METHODOLOGY, VALIDATION and LIMITATIONS for exact boundaries.

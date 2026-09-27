@@ -39,10 +39,10 @@
     "data/project_mapping_summary.csv": "9b56064af001a9d246a647180edfb2757f0f8a93a8e15aca92833c8b6c5fc767",
     "data/taxonomy_concepts.csv": "e89c75b44f62384cf2dccef3f71096637b558f33c2989ba3ed75d4f846d4851f",
     "data/uncertain_system_cases.csv": "dab394553f78c48fe8a67ae531577b33b71d9d32e14d3bc1a628b531ee3dd8cd",
-    "docs/DEPLOYMENT.md": "256928b8b8281956068066aebdb8e08b3fe979c318456c54d88f507664af0aae",
-    "docs/LIMITATIONS.md": "bb520864e935bfeca69d41b854a055e20defbad2b57fad1930163fe128005d9a",
+    "docs/DEPLOYMENT.md": "6d5f2d88ca6fe45cb75068ca08ab5990a40a6af3fa4b4b21f6252bdb5d789fcf",
+    "docs/LIMITATIONS.md": "cbf28f0d854b2f1af3934764dfe9d058219fefd2c195a6da57459d6663f9c1d1",
     "docs/METHODOLOGY.md": "3e883ca8b668468fa3ff9d639c70ebe8ceaaf0110b7564d07e6a0de3590a43f0",
-    "docs/SUBMISSION_DESCRIPTION.md": "d088530f91a78741d8740402e1560a0d2b9883f4714e43d86ee94468e84f5c60",
+    "docs/SUBMISSION_DESCRIPTION.md": "5ff883f268796ca59089c474a8d5144a500b8b88b82a7af159f0021fcde382aa",
     "docs/VALIDATION.md": "2a63863c5c8b0e0f4ca2e3e6c8cd2066dc7c7c40202e4c7fbfa3391786b0b1db",
     "figures/confidence_distribution.png": "74b7beadbd856ca2e84466165ab27f5f8d1ed601f6894d97273295392b3dded8",
     "figures/contribution_distribution.png": "670b8027a624e0f89031c284e82548fb502ea8398ca2b78bf73e6f604dfc1cfc",
@@ -52,9 +52,9 @@
     "figures/top_15_targets.png": "8eea35a1e52695b52cd1f7b4a8ad868fe9a2a772193fdf017939ad13f7c7d541",
     "LICENSE_STATUS.md": "68c33d911599b6fecc560d11460579a86490fd7d60106ec4ab9df743919fa1c9",
     "notebooks/final_analysis.ipynb": "e78b1be9ac9dd169168966ea44a5ad56adb5952a31e540d86f92871e85bc833e",
-    "README.md": "0e2d4a36d84bf9f4fb70e337ee396c5f38e3fabc435ef733cf200a2cd54e8b80",
+    "README.md": "110099396407806b13fdc695590fa2df4aa9312922b518edc01ae7511f133647",
     "requirements.txt": "8689292fabbef2e5b1572989810fd46bcafd0fb242fed2c6ff5b4bea408b17ee",
-    "tests/release_integrity_test.py": "fdf4430f728cd78fcb8b35c2ccd2a84083bfaafbd3fc106bb351bc2f1b34e1d3"
+    "tests/release_integrity_test.py": "fcb49f6ed74e1c77ad0274e7adf17e7b83658e7e27c5eccc2f7a8b42316b50f4"
   },
   "manifest_self_hash_excluded": true,
   "frozen_sources": {
@@ -190,9 +190,12 @@
   "openai_api_calls_during_release_build": 0,
   "frozen_scientific_outputs_modified": false,
   "reserve_semantic_access": false,
-  "public_url_status": "pending",
+  "public_url_status": "live_reported_by_project_owner",
   "license_status": "human_decision_required",
   "reproduction_scope": "Frozen-output lineage/composition, tables and charts. No new selection/retrieval/LLM run.",
   "original_app_sha256": "f0a8cab6a21d42921159bbafd7613fd7e264fb34a5a60f264a7b210f13e53ffb",
-  "public_app_sha256": "0a6ad2e0213b605d4a0fde99bfa1c6faa0def6cf6e96a0d342ef680251c44c64"
+  "public_app_sha256": "0a6ad2e0213b605d4a0fde99bfa1c6faa0def6cf6e96a0d342ef680251c44c64",
+  "public_app_url": "https://cordis-sdg-target-mapping-jpqfdgzmtxorrcsshrq6pq.streamlit.app/",
+  "public_deployment_independently_verified": false,
+  "documentation_updated_at": "2026-09-27T11:35:43.473387+00:00"
 }

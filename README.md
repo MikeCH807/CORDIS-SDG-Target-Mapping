@@ -36,6 +36,6 @@ Source: CORDIS project data; taxonomy: retained EU Vocabularies SDG export. The 
 `data/` contains the frozen mapping CSV, all-project summary, invalid cases, workbook, privacy-clean corpus and taxonomy. `artifacts/` contains selected manifests, frozen responses, privacy-safe parsed composition inputs and verifier code. `app/`, `notebooks/`, `figures/`, `docs/` and `tests/` provide the evaluator workflow. The private research archive and raw API logs are excluded.
 
 ## Competition submission
-See [Submission description](docs/SUBMISSION_DESCRIPTION.md). This is a release candidate, not a publicly deployed or independently validated final model. [License status](LICENSE_STATUS.md) requires the owner's decision and third-party attribution review before publication.
+See [Submission description](docs/SUBMISSION_DESCRIPTION.md). This release candidate now has a public Streamlit prototype at the URL below, as reported by the project owner. Public availability does not establish independently validated final-model accuracy. [License status](LICENSE_STATUS.md) requires the owner's decision and third-party attribution review before publication.
 
-PUBLIC APP URL: TO BE ADDED AFTER DEPLOYMENT
+PUBLIC APP URL: https://cordis-sdg-target-mapping-jpqfdgzmtxorrcsshrq6pq.streamlit.app/

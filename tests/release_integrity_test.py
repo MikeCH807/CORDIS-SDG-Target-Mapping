@@ -79,7 +79,7 @@ check('excel_qc_checks',all(bool(v) for k,v in list(w['QC Checks'].values)[1:]))
 w.close()
 syntax=[];json_errors=[];paths=[];secrets=[];clutter=[]
 for file in ROOT.rglob('*'):
- if not file.is_file():continue
+ if not file.is_file() or '.git' in file.relative_to(ROOT).parts:continue
  rel=file.relative_to(ROOT).as_posix()
  if any(x in file.parts for x in ['__pycache__','.venv','.venv-holdout','.pytest_cache','.ipynb_checkpoints','history','models']) or file.name=='.env' or file.name.startswith('.env.') or file.suffix in ['.pyc','.log']:clutter.append(rel)
  if file.suffix not in ['.py','.md','.json','.jsonl','.csv','.txt','.toml','.ipynb']:continue
@@ -103,7 +103,7 @@ check('notebook_cell_ids',len(ids)==len(set(ids)) and all(re.fullmatch(r'[A-Za-z
 if '--no-manifest' not in sys.argv:
  manifest_path=ROOT/'artifacts/release_manifest.json'
  if manifest_path.exists():
-  manifest=js('artifacts/release_manifest.json');actual={p.relative_to(ROOT).as_posix():sha(p) for p in ROOT.rglob('*') if p.is_file() and p!=manifest_path}
+  manifest=js('artifacts/release_manifest.json');actual={p.relative_to(ROOT).as_posix():sha(p) for p in ROOT.rglob('*') if p.is_file() and p!=manifest_path and '.git' not in p.relative_to(ROOT).parts}
   check('release_manifest_inventory_and_hashes',actual==manifest['files'])
  else:check('release_manifest_present',False)
 report={'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] for c in checks),'checks':checks,'openai_api_calls':0,'reserve_semantic_access':False}
