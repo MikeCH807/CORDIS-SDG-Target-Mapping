@@ -40,6 +40,7 @@ See [Submission description](docs/SUBMISSION_DESCRIPTION.md). This release candi
 
 PUBLIC APP URL: https://cordis-sdg-target-mapping-jpqfdgzmtxorrcsshrq6pq.streamlit.app/
 
+
 ## Project Development Journey
 
 A detailed account of the development process, technical challenges, validation decisions, limitations, and personal reflections from building this project is available here:
