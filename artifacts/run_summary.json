@@ -1,0 +1,37 @@
+{
+  "candidate_pairs": 1500,
+  "completed_at": "2026-09-26T23:42:04.910223+00:00",
+  "depth_calls": 234,
+  "depth_contract_invalid": 3,
+  "depth_contract_valid": 231,
+  "eligible_scope_results": 234,
+  "estimated_cost_usd": 0.63096,
+  "final_contract_invalid": 4,
+  "final_contract_valid": 1496,
+  "final_contribution_counts": {
+    "DIRECT": 188,
+    "INDIRECT": 43
+  },
+  "final_judgment_counts": {
+    "STRONG": 88,
+    "UNSUPPORTED": 1265,
+    "WEAK": 143
+  },
+  "final_responses_sha256": "b42bc2ce73f4d7c465bb48b68bbabd3f9a3149316b20fb48ca214ed63e7d9756",
+  "final_rows": 1500,
+  "human_labels_transmitted": false,
+  "human_reference_contents_read": false,
+  "input_tokens": 4893194,
+  "model": "gpt-6-luna",
+  "output_tokens": 283282,
+  "projects": 150,
+  "reserve_semantic_access": false,
+  "result": "COMPLETE_WITH_SYSTEM_INVALIDS",
+  "retries": 0,
+  "scope_calls": 1500,
+  "scope_contract_invalid": 1,
+  "scope_contract_valid": 1499,
+  "scope_requests_sha256": "876144b6470ad556a3749c65f9439224bc49808c219c5acde09b5910c8ef21b4",
+  "semantic_design": "Frozen V8 verifier",
+  "status": "FINAL_LUNA_MAPPING_COMPLETED"
+}

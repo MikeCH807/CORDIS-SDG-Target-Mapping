@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "seconds": 26.772973200015258,
+  "cells": 37,
+  "code_cells": 17,
+  "code_cells_executed": 17,
+  "all_cell_ids_valid": true,
+  "isolated_release_only": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "errors": [],
+  "figures": [
+    "confidence_distribution.png",
+    "contribution_distribution.png",
+    "mappings_by_sdg_goal.png",
+    "mappings_per_project.png",
+    "top_15_targets.png"
+  ]
+}

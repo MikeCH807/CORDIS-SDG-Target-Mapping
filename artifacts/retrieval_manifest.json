@@ -1,0 +1,17 @@
+{
+  "candidate_pairs": 1500,
+  "candidate_pairs_sha256": "6eab96127aacf69215b3acb33e205a15e3bc4883dc6ec241f6d7ad0c06a6a108",
+  "chunk_overlap": 40,
+  "chunk_width": 220,
+  "evidence_sha256": "cb993ee54cb71ebcabf2e28fccd8bde3b1adf126b6a1a2c4bd8da66b3789ba22",
+  "openai_api_calls": 0,
+  "payloads_sha256": "b13b4bef875202e41cf3efbf9aee79544662156f565056b1bb969d9de76496e4",
+  "privacy_clean_corpus_sha256": "7075a9da63228019f0968b5d7060a4c1ac266ebe421150517f504a44d1a19e96",
+  "projects": 150,
+  "reserve_semantic_access": false,
+  "retrieval_k": 10,
+  "retriever": "sentence-transformers/all-MiniLM-L6-v2",
+  "scoring": "0.7*objective_chunk_max + 0.3*metadata_similarity",
+  "status": "FINAL_RETRIEVAL_FROZEN",
+  "targets": 169
+}

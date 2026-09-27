@@ -1,0 +1,56 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "claimed_component": {
+      "type": "string"
+    },
+    "defining_qualifier_status": {
+      "enum": [
+        "SATISFIED",
+        "NOT_APPLICABLE",
+        "ABSENT"
+      ],
+      "type": "string"
+    },
+    "eligibility": {
+      "enum": [
+        "ELIGIBLE",
+        "NOT_ELIGIBLE"
+      ],
+      "type": "string"
+    },
+    "evidence_segment_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "scope_wording_id": {
+      "enum": [
+        "target_wording"
+      ],
+      "type": "string"
+    },
+    "target_action_bridge": {
+      "enum": [
+        "DIRECT",
+        "ENABLING",
+        "ABSENT"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "eligibility",
+    "claimed_component",
+    "evidence_segment_ids",
+    "scope_wording_id",
+    "target_action_bridge",
+    "defining_qualifier_status",
+    "explanation"
+  ],
+  "type": "object"
+}

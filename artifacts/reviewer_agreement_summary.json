@@ -1,0 +1,43 @@
+{
+  "reviewer_overlap_full": {
+    "n": 40,
+    "matches": 35,
+    "agreement": 0.875,
+    "kappa": 0.6527777777777778,
+    "reviewer_a_counts": {
+      "WEAK": 3,
+      "UNSUPPORTED": 33,
+      "STRONG": 4
+    },
+    "reviewer_b_counts": {
+      "WEAK": 6,
+      "UNSUPPORTED": 30,
+      "STRONG": 4
+    }
+  },
+  "reviewer_overlap_binary": {
+    "n": 40,
+    "matches": 37,
+    "agreement": 0.925,
+    "kappa": 0.7777777777777779,
+    "reviewer_a_counts": {
+      "true": 7,
+      "false": 33
+    },
+    "reviewer_b_counts": {
+      "true": 10,
+      "false": 30
+    }
+  },
+  "reviewer_rows": [
+    140,
+    140
+  ],
+  "human_rows": 240,
+  "human_projects": 24,
+  "human_label_counts": {
+    "UNSUPPORTED": 192,
+    "WEAK": 18,
+    "STRONG": 30
+  }
+}

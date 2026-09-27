@@ -1,0 +1,23 @@
+{
+  "api_calls": 0,
+  "candidate_audit_sha256": "43a27c93ac09e0bd7ab024875d3bb20dcdf31f4907e9aa65e8c6c0afa070fea2",
+  "candidate_pairs": 1500,
+  "confidence_is_calibrated_probability": false,
+  "manual_semantic_repairs": 0,
+  "model": "gpt-6-luna",
+  "project_summary_sha256": "9b56064af001a9d246a647180edfb2757f0f8a93a8e15aca92833c8b6c5fc767",
+  "projects": 150,
+  "public_mapping_jsonl_sha256": "190929a40d71f0d08dedcc967a0135a8f673723565da2f8342965e78bb38ad5a",
+  "public_mapping_sha256": "1d33fdeb0604cb6e9dc70b10948550ff2953632b4841d9ccff6d87b1de710c76",
+  "public_supported_mappings": 231,
+  "quality_report_sha256": "841e20fe109819d9aae6cbc9db65f3f0d5ebe42773de02dd3f4bd7d130a1de05",
+  "rerun_of_invalid_cases": false,
+  "reserve_semantic_access": false,
+  "semantic_design": "Frozen V8 verifier",
+  "source_candidate_pairs_sha256": "6eab96127aacf69215b3acb33e205a15e3bc4883dc6ec241f6d7ad0c06a6a108",
+  "source_corpus_sha256": "7075a9da63228019f0968b5d7060a4c1ac266ebe421150517f504a44d1a19e96",
+  "source_final_responses_sha256": "b42bc2ce73f4d7c465bb48b68bbabd3f9a3149316b20fb48ca214ed63e7d9756",
+  "status": "FINAL_PUBLIC_MAPPING_FROZEN",
+  "system_uncertain_cases": 4,
+  "uncertain_cases_sha256": "dab394553f78c48fe8a67ae531577b33b71d9d32e14d3bc1a628b531ee3dd8cd"
+}

@@ -1,0 +1,9 @@
+# Submission description
+
+This controlled demonstration maps 150 CORDIS projects to exact UN SDG Targets using MiniLM candidate retrieval, a frozen two-stage V8 verifier deployed with GPT-6 Luna, and deterministic composition. Ten candidates per project produced 1,500 evaluated pairs. The frozen public table contains 231 supported mappings across 100 projects; 50 projects have no supported top-10 target. There are 88 HIGH/STRONG and 143 MEDIUM/WEAK mappings, 188 DIRECT and 43 INDIRECT relationships, and four separately retained system-invalid cases.
+
+Evaluators can inspect target wording, project identifiers, source-field evidence, explanations and limitations, run an offline integrity test, reproduce five figures in the notebook, and explore/download the results in Streamlit without an API key. Multi-label output and explicit abstention avoid forcing a label per project. Evidence traceability and preserved failures support scrutiny; they do not establish semantic accuracy.
+
+Production evaluates Targets only, not Indicators/Series. The reused GPT-5.4 Mini development benchmark failed the complete internal quality gate and does not measure final Luna accuracy. The scope prompt says Horizon Europe although 42 projects are OTHER; those 420 evaluations and 28 supported mappings retain this limitation. The demonstration sample cannot estimate CORDIS-wide prevalence. Source download date and some original production scripts are unrecovered; the release reproduces analysis and deterministic composition from frozen outputs.
+
+The web prototype is not publicly deployed yet. Licensing/attribution review and the public URL are required before submission. See METHODOLOGY, VALIDATION and LIMITATIONS for exact boundaries.

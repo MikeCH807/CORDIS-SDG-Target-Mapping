@@ -1,0 +1,100 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "causal_immediacy": {
+      "enum": [
+        "IMMEDIATE_TARGET_MECHANISM",
+        "UPSTREAM_ENABLER"
+      ],
+      "type": "string"
+    },
+    "claimed_component": {
+      "type": "string"
+    },
+    "contribution": {
+      "enum": [
+        "DEFER_TO_COMPOSER"
+      ],
+      "type": "string"
+    },
+    "evidence_segment_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "judgment": {
+      "enum": [
+        "DEFER_TO_COMPOSER"
+      ],
+      "type": "string"
+    },
+    "material_gap": {
+      "enum": [
+        "NONE_OR_SCALE_ONLY",
+        "MATERIAL_NONBLOCKING"
+      ],
+      "type": "string"
+    },
+    "operative_action_alignment": {
+      "enum": [
+        "GOVERNING_ACTION_MATCH",
+        "CONSTITUENT_MECHANISM_ONLY"
+      ],
+      "type": "string"
+    },
+    "outcome_limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "realization_depth": {
+      "enum": [
+        "PERFORMS_OR_INSTANTIATES_COMPONENT",
+        "SUBSTANTIAL_TARGET_SPECIFIC_CAPACITY",
+        "LIMITED_OR_NARROW_ENABLER"
+      ],
+      "type": "string"
+    },
+    "role_in_project": {
+      "enum": [
+        "CORE_OR_MAJOR",
+        "SECONDARY"
+      ],
+      "type": "string"
+    },
+    "scope_wording_id": {
+      "enum": [
+        "target_wording"
+      ],
+      "type": "string"
+    },
+    "target_specificity": {
+      "enum": [
+        "HIGH",
+        "MODERATE"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "judgment",
+    "contribution",
+    "claimed_component",
+    "role_in_project",
+    "realization_depth",
+    "target_specificity",
+    "material_gap",
+    "causal_immediacy",
+    "operative_action_alignment",
+    "evidence_segment_ids",
+    "scope_wording_id",
+    "explanation",
+    "outcome_limitations"
+  ],
+  "type": "object"
+}

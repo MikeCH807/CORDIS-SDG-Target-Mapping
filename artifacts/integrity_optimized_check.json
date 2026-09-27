@@ -1,0 +1,344 @@
+{
+  "passed": 62,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "protected_hash:data/cordis_sdg_mapping.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "protected_hash:artifacts/final_responses.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "protected_hash:data/final_projects_150_privacy_clean.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "protected_hash:artifacts/final_candidate_pairs_1500.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "protected_hash:data/CORDIS_SDG_Final_Mapping.xlsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/cordis_sdg_mapping.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/project_mapping_summary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/uncertain_system_cases.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/CORDIS_SDG_Final_Mapping.xlsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/final_projects_150_privacy_clean.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/mapping_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/quality_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/final_corpus_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/final_corpus_privacy_amendment.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/retrieval_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/final_candidate_pairs_1500.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/final_project_evidence_150.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/freeze_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/run_summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/final_responses.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/frozen_verifier/compose_two_stage.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/frozen_verifier/scope_gate_prompt.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/frozen_verifier/scope_gate_schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/frozen_verifier/depth_grader_prompt.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/frozen_verifier/depth_grader_schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:data/taxonomy_concepts.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/development_metrics.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_hash:artifacts/development_gate_result.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "counts",
+      "passed": true,
+      "detail": {
+        "projects": 150,
+        "unique_projects": 150,
+        "public_mappings": 231,
+        "mapped": 100,
+        "unmapped": 50,
+        "HIGH": 88,
+        "MEDIUM": 143,
+        "DIRECT": 188,
+        "INDIRECT": 43,
+        "uncertain": 4,
+        "candidate_pairs": 1500,
+        "response_rows": 1500,
+        "total_from_summary": 231,
+        "mean_all": 1.54,
+        "mean_mapped": 2.31,
+        "max": 6
+      }
+    },
+    {
+      "check": "unique_mapping_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "identity_populations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ten_unique_ranks_per_project",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "finite_retrieval_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "framework_diagnostic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "final_judgments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "public_exact_supported_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "invalid_cases_separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all231_evidence_ownership_normalized_text",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all231_lineage",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all150_project_summary",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "169_unique_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_candidate_target_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all1500_deterministic_compositions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "depth_only_valid_eligible_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verifier_hash:composer_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verifier_hash:scope_prompt_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verifier_hash:scope_schema_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verifier_hash:depth_prompt_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verifier_hash:depth_schema_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "excel_csv:Mappings",
+      "passed": true,
+      "detail": {
+        "rows_including_header": 232,
+        "mismatch_rows": []
+      }
+    },
+    {
+      "check": "excel_csv:Projects",
+      "passed": true,
+      "detail": {
+        "rows_including_header": 151,
+        "mismatch_rows": []
+      }
+    },
+    {
+      "check": "excel_csv:Uncertain Cases",
+      "passed": true,
+      "detail": {
+        "rows_including_header": 5,
+        "mismatch_rows": []
+      }
+    },
+    {
+      "check": "excel_sheets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "excel_qc_checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "python_syntax",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "json_validity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_absolute_machine_paths",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_likely_credentials",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_private_clutter",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "app_no_live_openai",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "notebook_cell_ids",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "openai_api_calls": 0,
+  "reserve_semantic_access": false
+}

@@ -1,0 +1,15 @@
+{
+  "command": "python -B -m streamlit run app/app.py --server.address=127.0.0.1 --server.port=<free-port> --server.headless=true --browser.gatherUsageStats=false",
+  "cwd": "isolated release copy",
+  "public_deployment": false,
+  "api_credentials_removed": true,
+  "status": "PASS",
+  "http_status": 200,
+  "health_body": "ok",
+  "startup_to_health_seconds": 8.341,
+  "root_http_status": 200,
+  "root_html_bytes": 7260,
+  "root_http_latency_seconds": 0.0135,
+  "server_process_tree_rss_bytes": 76328960,
+  "memory_scope": "Server before browser websocket session; not a loaded-app peak or hardware requirement."
+}

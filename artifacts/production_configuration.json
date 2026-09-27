@@ -1,0 +1,35 @@
+{
+  "api_interface": "Responses API",
+  "scope_request_configuration": {
+    "max_output_tokens": 1536,
+    "model": "gpt-6-luna",
+    "reasoning": {
+      "effort": "none"
+    },
+    "service_tier": "default",
+    "store": false,
+    "tools": []
+  },
+  "scope_requests_checked": 1500,
+  "structured_output": {
+    "name": "sdg_target_scope_gate_v8",
+    "strict": true,
+    "type": "json_schema"
+  },
+  "scope_requests_sha256": "876144b6470ad556a3749c65f9439224bc49808c219c5acde09b5910c8ef21b4",
+  "semantic_retries": 0,
+  "human_labels_transmitted": false,
+  "reserve_semantic_access": false,
+  "evidence": "Configuration extracted from all frozen scope request bodies. Depth raw responses checked separately; no live request generated.",
+  "depth_configuration_status": "All 234 retained provider response objects echo the configuration shown. Complete outbound depth request bodies are not published; response echoes are not substituted for original request provenance.",
+  "depth_provider_echo_configuration": {
+    "model": "gpt-6-luna",
+    "max_output_tokens": 1536,
+    "service_tier": "default",
+    "store": false,
+    "tools": [],
+    "reasoning_effort": "none",
+    "response_object": "response"
+  },
+  "depth_provider_echo_rows_checked": 234
+}

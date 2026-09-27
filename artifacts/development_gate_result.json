@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "binary_matches": true,
+    "contract_valid": true,
+    "contribution_accuracy": true,
+    "contribution_evaluable_rows": true,
+    "direct_predictions": true,
+    "exact_matches": false,
+    "indirect_predictions": true,
+    "max_invalid": true,
+    "strong_precision": true,
+    "strong_recall": false,
+    "supported_precision": true,
+    "supported_recall": false,
+    "weak_precision": false,
+    "weak_predictions": true,
+    "weak_recall": true
+  },
+  "result": "FAIL",
+  "thresholds": {
+    "max_invalid": 2,
+    "min_binary_matches": 221,
+    "min_contract_valid": 238,
+    "min_contribution_accuracy": 0.65,
+    "min_contribution_evaluable_rows": 35,
+    "min_direct_predictions": 10,
+    "min_exact_matches": 216,
+    "min_indirect_predictions": 5,
+    "min_strong_precision": 0.7,
+    "min_strong_recall": 0.75,
+    "min_supported_precision": 0.8,
+    "min_supported_recall": 0.8,
+    "min_weak_precision": 0.5,
+    "min_weak_predictions": 5,
+    "min_weak_recall": 0.4
+  }
+}

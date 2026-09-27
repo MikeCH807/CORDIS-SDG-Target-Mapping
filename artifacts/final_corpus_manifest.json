@@ -1,0 +1,27 @@
+{
+  "api_calls": 0,
+  "eligible_population_after_exclusions": 23329,
+  "final_projects_sha256": "fbc1cc1d3e7d6ddfb52da1c89f52d725bbf19ffc68852467565e26a54635a03d",
+  "framework_distribution": {
+    "HORIZON_EUROPE": 108,
+    "OTHER": 42
+  },
+  "minimum_objective_characters": 250,
+  "previous_development_validation_ids_excluded": 111,
+  "reserve_ids_excluded_metadata_only": 24,
+  "reserve_semantic_access": false,
+  "selected_projects": 150,
+  "selection_method": "deterministic balanced-proportional stratified selection",
+  "selection_seed": "CORDIS_SDG_FINAL_SUBMISSION_2026_V1",
+  "selection_used_model_predictions": false,
+  "selection_used_sdg_labels": false,
+  "source_file": "data\\processed\\projects_clean.csv",
+  "source_sha256": "003dd63261ba9d31433c7c6f6753d55135700f4c88e53b8f8f94cd271e17a1b2",
+  "status": "FINAL_CORPUS_FROZEN",
+  "stratum_distribution": {
+    "HORIZON_EUROPE|2021_2023": 40,
+    "HORIZON_EUROPE|2024_PLUS": 68,
+    "OTHER|2021_2023": 15,
+    "OTHER|2024_PLUS": 27
+  }
+}

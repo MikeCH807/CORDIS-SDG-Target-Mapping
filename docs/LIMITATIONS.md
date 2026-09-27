@@ -1,0 +1,14 @@
+# Limitations
+
+- Retrieval tests only the top 10 of 169 Targets per project. Relevant targets outside that set cannot be recovered by the verifier.
+- Production is Target-only. The retained EU vocabulary also contains Goals, Indicators and Series, but no production Indicator/Series evaluation was performed. Blank `narrower_concept` fields mean outside production scope, not individually rejected concepts.
+- V8 FAILED the complete internal development gate. Repeated development-set reuse and the change from GPT-5.4 Mini to GPT-6 Luna prevent interpreting those metrics as independent final-deployment accuracy.
+- No independent final-Luna human gold set establishes final precision/recall. Strong/weak separation is unstable in the development results; HIGH/MEDIUM are categorical strength labels, not probabilities.
+- The unchanged scope prompt says `ONE Horizon Europe project`. The frozen corpus has 108 HORIZON_EUROPE and 42 OTHER projects: 420 scope evaluations used inaccurate framework wording; 28 supported mappings belong to OTHER. Verification is based on target/evidence, but the prompt was not framework-neutral. Results were preserved, not relabelled or rerun.
+- The 150-project deterministic, privacy-screened demonstration is not a probability sample and cannot estimate CORDIS-wide SDG prevalence. OTHER is the retained framework category; it is not proof of Horizon 2020 integration.
+- The original upstream CORDIS retrieval/download date could not be recovered reliably. Do not infer it from later file modification times.
+- Final selection/retrieval/production orchestration scripts were not recovered in the repository search. Manifests document their settings; this release reproduces frozen-output lineage, deterministic composition and descriptive analysis, not a fresh end-to-end data acquisition/model run.
+- The provider model ID is recorded, but an immutable provider backend snapshot is not available. Future API outputs are not guaranteed identical. No API calls occur in this release app, tests or notebook.
+- Four system-invalid results remain separate. An unmapped project means no supported result among evaluated candidates, not proof that the project contributes to no SDG.
+- Target 9.5 accounts for 45/231 supported mappings (19.48%). This is a concentration diagnostic, not evidence of correctness or an estimate of research-sector prevalence.
+- Automated privacy screening is heuristic. No contact fields or credentials are included; historical names and proper nouns may remain in project text. Original-license/third-party reuse review and public deployment remain pending.

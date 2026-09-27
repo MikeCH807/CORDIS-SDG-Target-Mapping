@@ -1,0 +1,396 @@
+{
+  "passed": 58,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Overview",
+      "passed": true,
+      "detail": {
+        "Projects analysed": "150",
+        "Candidate relationships": "1,500",
+        "Supported mappings": "231",
+        "Projects mapped": "100",
+        "HIGH confidence": "88",
+        "DIRECT contributions": "188"
+      }
+    },
+    {
+      "check": "page:Project Explorer",
+      "passed": true,
+      "detail": {
+        "seconds": 0.2519532000005711,
+        "metrics": {
+          "CORDIS ID": "101067998",
+          "Acronym": "ENHANCER",
+          "Framework": "HORIZON_EUROPE",
+          "Supported targets": "3",
+          "Confidence": "MEDIUM",
+          "Contribution": "INDIRECT",
+          "Retrieval rank": "3"
+        }
+      }
+    },
+    {
+      "check": "page:Mapping Explorer",
+      "passed": true,
+      "detail": {
+        "seconds": 0.4542605000024196,
+        "metrics": {
+          "Filtered mappings": "231",
+          "Unique projects": "100",
+          "Exact targets": "49"
+        }
+      }
+    },
+    {
+      "check": "page:SDG Explorer",
+      "passed": true,
+      "detail": {
+        "seconds": 0.2016038000001572,
+        "metrics": {
+          "Supported mappings": "6",
+          "Projects": "4",
+          "HIGH confidence": "3",
+          "DIRECT": "5"
+        }
+      }
+    },
+    {
+      "check": "page:Method & Validation",
+      "passed": true,
+      "detail": {
+        "seconds": 0.1252960999845527,
+        "metrics": {
+          "Reviewed pairs": "240",
+          "Overlap rows": "40",
+          "Exact agreement": "87.5%",
+          "Binary agreement": "92.5%",
+          "Final candidates": "1,500",
+          "Contract-valid": "1,496",
+          "System-invalid": "4",
+          "Supported mappings": "231"
+        }
+      }
+    },
+    {
+      "check": "page:Downloads",
+      "passed": true,
+      "detail": {
+        "seconds": 0.12409120000666007,
+        "metrics": {}
+      }
+    },
+    {
+      "check": "project:mapped",
+      "passed": true,
+      "detail": {
+        "CORDIS ID": "101067998",
+        "Acronym": "ENHANCER",
+        "Framework": "HORIZON_EUROPE",
+        "Supported targets": "3",
+        "Confidence": "MEDIUM",
+        "Contribution": "INDIRECT",
+        "Retrieval rank": "3"
+      }
+    },
+    {
+      "check": "project_evidence_rendered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "project:unmapped",
+      "passed": true,
+      "detail": {
+        "CORDIS ID": "101106480",
+        "Acronym": "Janina Project",
+        "Framework": "HORIZON_EUROPE",
+        "Supported targets": "0"
+      }
+    },
+    {
+      "check": "unmapped_notice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "searchable_project_selector_options",
+      "passed": true,
+      "detail": "Native selectbox typing requires browser inspection; option selection tested."
+    },
+    {
+      "check": "filter:HIGH",
+      "passed": true,
+      "detail": {
+        "expected": 88,
+        "actual": "88"
+      }
+    },
+    {
+      "check": "filter:MEDIUM",
+      "passed": true,
+      "detail": {
+        "expected": 143,
+        "actual": "143"
+      }
+    },
+    {
+      "check": "empty_filter:confidence_level",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "filter:DIRECT",
+      "passed": true,
+      "detail": {
+        "expected": 188,
+        "actual": "188"
+      }
+    },
+    {
+      "check": "filter:INDIRECT",
+      "passed": true,
+      "detail": {
+        "expected": 43,
+        "actual": "43"
+      }
+    },
+    {
+      "check": "empty_filter:contribution_type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mapping_goal:17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "empty_goal_filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "search:101039986",
+      "passed": true,
+      "detail": {
+        "expected": 1,
+        "actual": "1"
+      }
+    },
+    {
+      "check": "search:xyz_no_match_928374",
+      "passed": true,
+      "detail": {
+        "expected": 0,
+        "actual": "0"
+      }
+    },
+    {
+      "check": "search:[",
+      "passed": true,
+      "detail": {
+        "expected": 0,
+        "actual": "0"
+      }
+    },
+    {
+      "check": "search:3.3",
+      "passed": true,
+      "detail": {
+        "expected": 4,
+        "actual": "4"
+      }
+    },
+    {
+      "check": "sdg_goal:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sdg_goal:17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "empty_exact_target_filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "validation_caveats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "download_bytes:cordis_sdg_mapping.csv",
+      "passed": true,
+      "detail": {
+        "sha256": "1d33fdeb0604cb6e9dc70b10948550ff2953632b4841d9ccff6d87b1de710c76",
+        "bytes": 580392
+      }
+    },
+    {
+      "check": "download_bytes:CORDIS_SDG_Final_Mapping.xlsx",
+      "passed": true,
+      "detail": {
+        "sha256": "1b600721efbd8988304e505d0ff0a9d3214f86abf1165e94634e0a10ff596821",
+        "bytes": 170068
+      }
+    },
+    {
+      "check": "download_bytes:project_mapping_summary.csv",
+      "passed": true,
+      "detail": {
+        "sha256": "9b56064af001a9d246a647180edfb2757f0f8a93a8e15aca92833c8b6c5fc767",
+        "bytes": 22006
+      }
+    },
+    {
+      "check": "download_bytes:uncertain_system_cases.csv",
+      "passed": true,
+      "detail": {
+        "sha256": "dab394553f78c48fe8a67ae531577b33b71d9d32e14d3bc1a628b531ee3dd8cd",
+        "bytes": 2022
+      }
+    }
+  ],
+  "browser_visual_test": "NOT TESTED: computer-use runtime failed to initialize; AppTest is not browser visual validation.",
+  "narrow_viewport": "NOT TESTED",
+  "live_api_calls": 0
+}

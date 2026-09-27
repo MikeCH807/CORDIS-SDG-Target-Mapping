@@ -1,0 +1,40 @@
+{
+  "api_calls": 0,
+  "blocked_original_project_ids": [
+    "101066452",
+    "101207854",
+    "101295861",
+    "101201413",
+    "101153525",
+    "101040948"
+  ],
+  "development_overlap": 0,
+  "method": "Reapply the identical deterministic hash ordering and original stratum allocation after a label-blind local privacy eligibility filter.",
+  "parent_corpus": "final_projects_150.csv",
+  "parent_sha256": "fbc1cc1d3e7d6ddfb52da1c89f52d725bbf19ffc68852467565e26a54635a03d",
+  "privacy_blocked_population_candidates": 1350,
+  "privacy_clean_sha256": "7075a9da63228019f0968b5d7060a4c1ac266ebe421150517f504a44d1a19e96",
+  "reason": "Privacy eligibility filter was omitted before the initial deterministic corpus freeze.",
+  "removed_project_ids": [
+    "101040948",
+    "101066452",
+    "101153525",
+    "101201413",
+    "101207854",
+    "101295861"
+  ],
+  "replacement_project_ids": [
+    "101039986",
+    "101114249",
+    "101131175",
+    "101131435",
+    "101135576",
+    "101217199"
+  ],
+  "reserve_overlap": 0,
+  "reserve_semantic_access": false,
+  "selected_projects": 150,
+  "selection_used_model_predictions": false,
+  "selection_used_sdg_labels": false,
+  "status": "FINAL_CORPUS_PRIVACY_AMENDMENT_FROZEN"
+}

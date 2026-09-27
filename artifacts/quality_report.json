@@ -1,0 +1,135 @@
+{
+  "api_calls": 0,
+  "candidate_pairs": 1500,
+  "checks": {
+    "1500_candidate_pairs_present": true,
+    "150_projects_present": true,
+    "all_supported_rows_contract_valid": true,
+    "confidence_is_categorical_not_probability": true,
+    "duplicate_public_mapping_keys_zero": true,
+    "missing_supported_evidence_ids_zero": true,
+    "missing_supported_explanations_zero": true,
+    "public_supported_mappings_231": true,
+    "system_invalids_4": true,
+    "system_invalids_preserved_separately": true,
+    "unsupported_pairs_excluded_from_public_mapping": true
+  },
+  "confidence_counts": {
+    "HIGH": 88,
+    "MEDIUM": 143
+  },
+  "confidence_method": {
+    "STRONG": "HIGH",
+    "SYSTEM_INVALID": "UNCERTAIN",
+    "WEAK": "MEDIUM",
+    "note": "Categorical interpretability layer only; these levels are not calibrated probabilities."
+  },
+  "contract_invalid": 4,
+  "contract_valid": 1496,
+  "contribution_counts": {
+    "DIRECT": 188,
+    "INDIRECT": 43
+  },
+  "duplicate_public_mapping_keys": 0,
+  "goal_distribution": {
+    "10": 1,
+    "11": 8,
+    "12": 29,
+    "13": 7,
+    "14": 8,
+    "15": 14,
+    "16": 1,
+    "17": 13,
+    "2": 6,
+    "3": 35,
+    "4": 3,
+    "6": 6,
+    "7": 25,
+    "8": 9,
+    "9": 66
+  },
+  "invalid_request_ids": [
+    "101087257:17.8",
+    "101181294:15.5",
+    "101211177:9.5",
+    "101279745:3.8"
+  ],
+  "judgment_counts": {
+    "STRONG": 88,
+    "UNSUPPORTED": 1265,
+    "WEAK": 143
+  },
+  "max_supported_mappings_for_one_project": 6,
+  "mean_supported_mappings_per_mapped_project": 2.31,
+  "mean_supported_mappings_per_project": 1.54,
+  "missing_reconstructed_evidence_text": 0,
+  "missing_supported_evidence_ids": 0,
+  "missing_supported_explanations": 0,
+  "projects": 150,
+  "projects_with_at_least_one_supported_mapping": 100,
+  "projects_without_supported_mapping": 50,
+  "public_supported_mappings": 231,
+  "status": "PASS",
+  "top_15_targets": [
+    [
+      "9.5",
+      45
+    ],
+    [
+      "9.4",
+      16
+    ],
+    [
+      "3.4",
+      13
+    ],
+    [
+      "12.4",
+      12
+    ],
+    [
+      "7.3",
+      11
+    ],
+    [
+      "3.d",
+      9
+    ],
+    [
+      "12.5",
+      9
+    ],
+    [
+      "8.4",
+      6
+    ],
+    [
+      "3.8",
+      6
+    ],
+    [
+      "7.a",
+      6
+    ],
+    [
+      "7.2",
+      6
+    ],
+    [
+      "17.17",
+      5
+    ],
+    [
+      "15.5",
+      5
+    ],
+    [
+      "13.1",
+      5
+    ],
+    [
+      "15.1",
+      5
+    ]
+  ]
+}
